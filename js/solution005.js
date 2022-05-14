@@ -1,4 +1,4 @@
-  /*  *****
+
 Challenge: Fundamentals: Return
 
 Instructions:  Make multiple functions that will return the sum, difference, modulus, product, quotient, and the exponent respectively.
@@ -35,4 +35,3 @@ Instructions:  Make multiple functions that will return the sum, difference, mod
 
                                      CodeWars Solution(s)
             const [{pow: exponent}, {add, subtract: subt, multiply, divide, modulo: mod}] = [Math, require('ramda')] 
-*/
