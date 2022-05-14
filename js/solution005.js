@@ -1,9 +1,9 @@
 
 Challenge: Fundamentals: Return
 
-Instructions:  Make multiple functions that will return the sum, difference, modulus, product, quotient, and the exponent respectively.
+// Instructions:  Make multiple functions that will return the sum, difference, modulus, product, quotient, and the exponent respectively.
 
-                                       MY Solution
+//                                        MY Solution
 
                 function add(a,b){
                     return a + b
@@ -28,10 +28,10 @@ Instructions:  Make multiple functions that will return the sum, difference, mod
                 function subt(a,b){
                     return a-b
                 }
-                                       CodeWars Solution
+                                    //    CodeWars Solution
 
                 {var {add, subtract, multiply, divide, modulo} = require('ramda') 
                 var [mod, subt, exponent] = [modulo, subtract, Math.pow]}
 
-                                     CodeWars Solution(s)
+                                    //  CodeWars Solution(s)
             const [{pow: exponent}, {add, subtract: subt, multiply, divide, modulo: mod}] = [Math, require('ramda')] 
