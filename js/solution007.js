@@ -1,4 +1,4 @@
-/*
+
 var humanYearsCatYearsDogYears = function(humanYears) {
     // Your code here!
     if(humanYears=== 1){
@@ -10,4 +10,3 @@ var humanYearsCatYearsDogYears = function(humanYears) {
         return [humanYears, 24+(n*4),24+(n*5)]
     }
   }
-*/
